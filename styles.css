@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar_nav{
+    display: flex;
+    padding: 1rem 2%;
+    background-color: rgba(10, 10, 10, 67%);
+}
+
+.navbar_nav .logo {
+    padding-left: 120px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav_links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 6px 0px 0px 250px;
+    color: #fff;
+    margin-right: 100px;
+}
+
+.links li {
+    color: #fff;
+    align-items: flex-start;
+
+}
+
+
+.icon{
+  padding-top: 12px;
+}
+
+
+.header{
+    background-image: url(/img/handsome-young-man-fashionably-dressed-standing-street-night-illuminated-signboards-neon-lights.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    color: #fff;
+}
+
+.dot{
+  color: #cf4646;
+  
+}
+
+.header_h3{
+  color: #fcaa97;
+    font-size: 5rem;
+    padding: 110px 0px 0px 150px;
+}
+
+.header_para{
+  font-size: 1rem;
+  padding-left: 150px;
+  padding-bottom: 50px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-weight: 200;
+}
+
+.header_btn{
+  text-decoration: none;
+  text-decoration: none;
+  margin-left: 150px;
+  color: white;
+  border: 2px #cf4646 solid;
+  border-radius: 50px;
+  padding: 15px 40px;
+}
+
+.header_href{
+  color: #fff;
+  text-decoration: underline;
+  padding-left: 20px;
+}
+
+.section1{
+  text-align: center;
+    padding-top: 25px;
+}
+
+.body_href{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Poppins';
+  color: black;
+  padding-left: 15px;
+}
+
+.grid_layout {
+  padding: 50px 250px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 250px 50px 180px 140px 180px 1px;
+  gap: 10px;
+  }
+.grid__1 {
+    background-image: url(/img/guilherme-stecanella-s5j8_U-eNdw-unsplash.jpg);
+    background-size: cover;
+    grid-column: 1/2;
+
+  }
+  .grid__2 {
+    background-image: url(/img/tan-kaninthanond-ly_qiiXb4mE-unsplash.jpg);
+    background-size: cover;
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+  .grid__3 {
+    background-image: url(/img/guilherme-stecanella-DbiVrJ5QFic-unsplash\ \(3\).jpg);
+    background-size: cover;
+    grid-column: 3/4;
+  }
+  .grid__4 {
+    background-image: url(/img/hubistavern-xWIE-tBjgZ4-unsplash.jpg);
+    background-size: cover;
+    grid-column: 4/5;
+    grid-row: -7/-5;
+  }
+  .grid__5 {
+    background-image: url(/img/max-8hUOmqyWn1U-unsplash.jpg);
+    background-size: cover;
+    grid-column: 1/2;
+    grid-row: 2/4;
+  }
+  .grid__6 {
+    background-image: url(/img/rafael-romero-6F9KWbQFQ44-unsplash.jpg);
+    background-size: cover;
+    grid-column: 2/3;
+    grid-row: 3/5;
+  }
+  .grid__7 {
+    background-image: url(/img/rico-reutimann-3smP5J11AUc-unsplash.jpg);
+    background-size: cover;
+    grid-column: 3/4;
+    grid-row: 2/4;
+  }
+  .grid__8 {
+    grid-row: 2/3;
+  }
+  .grid__9 {
+    background-image: url(/img/urban-mysterious-lights-film-aesthetic.jpg);
+    background-size: cover;
+    grid-row: 3/4;
+  }
+
+  .grid__10 {
+    grid-row: 3/4;
+  }
+  .grid__11 {
+    grid-row: 3/4;
+  }
+  .grid__12 {
+    grid-row: 3/4;
+  }
+
+  .grid__13 {
+    background-image: url(/img/eric-weber-nQOQVJW7EY8-unsplash.jpg);
+    background-size: cover;
+    background-color: #00bcd5;
+    grid-row: 4/7;
+  }
+
+  .grid__14 {
+    background-image: url(/img/tetrebbien-MyzdAXPgr_8-unsplash.jpg);
+    background-size: cover;
+    grid-column: 3/5;
+    grid-row: 4/7;
+  }
+
+  .grid__15 {
+    grid-row: 4/5;
+  }
+
+  .grid__16 {
+    grid-row: 4/5;
+  }
+
+  .grid__17 {
+    background-image: url(/img/sebastiaan-stam-WUQtrfm0cTU-unsplash.jpg);
+    background-size: cover;
+    grid-row: 5/6;
+  }
+
+  .section3{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .view_btn{
+   text-decoration: none;
+   color: rgb(44, 44, 44);
+   border: 2px #cf4646 solid;
+   border-radius: 50px;
+   padding: 10px 20px;
+  }
+
+  .section3_h4{
+    padding: 30px 0px 15px 0px;
+    font-size: 22px;
+    color: #000000d4;
+  }
+
+  .section3_email{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.767);
+    margin-bottom: 20px;
+  }
+
+  .slide{
+    display: flex;
+  }
+
+  .img_slide{
+    width: 250px;
+    height: 220px;
+  }
+
+  footer{
+    display: flex;
+    padding: 25px 0px 25px 300px;
+    font-size: 16px;
+    color: #000000b5;
+  }
+
+  .color{
+    color: #cf4646;
+  }
+
+  .footer_href{
+    color: #000000e6;
+    font-weight: 600;
+    padding-left: 80px;
+    text-decoration: none;
+  }
+
+  .footer_icon{
+    padding: 3px 5px 0px 15px;
+  }
